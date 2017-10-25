@@ -2582,6 +2582,7 @@ read_line (GLog * glog, char *line, int *test, int *cnt, int dry_run)
  *
  * On error, NULL is returned.
  * On success, the malloc'd line is returned. */
+#ifdef WITH_GETLINE
 char *
 fgetline (FILE * fp)
 {
@@ -2631,6 +2632,7 @@ fgetline (FILE * fp)
 
   return NULL;
 }
+#endif
 
 /* Iterate over the log and read line by line (use GNU get_line to parse the
  * whole line).
