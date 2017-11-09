@@ -59,7 +59,7 @@
 
 #define T_DATETIME               _( "Date/Time")
 #define T_REQUESTS               _( "Total Requests")
-#define T_GEN_TIME               _( "Init. Proc. Time")
+#define T_GEN_TIME               _( "Logs Proc. Time")
 #define T_FAILED                 _( "Failed Requests")
 #define T_VALID                  _( "Valid Requests")
 #define T_UNIQUE_VISITORS        _( "Unique Visitors")
