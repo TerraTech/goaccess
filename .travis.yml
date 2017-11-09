@@ -32,4 +32,6 @@ install:
 branches:
  only:
    - master 
+   - FQmaster
+   - FQ
 script: "echo done"
